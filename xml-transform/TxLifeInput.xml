@@ -1,0 +1,13 @@
+<TXLife
+    
+    xmlns:a="http://xml.apache.org/xslt/java">
+   
+    <TXLifeRequest>
+        <TransRefGUID>a5f1a890-2181-45e4-8e0d-3d024c47cbef</TransRefGUID>
+        <TransType tc="203">New Business Application</TransType>
+        <TransExeDate>2019-02-05</TransExeDate>
+        <TransExeTime>02:00:00</TransExeTime>
+        <TransMode tc="2">Original</TransMode>
+        
+    </TXLifeRequest>
+</TXLife>

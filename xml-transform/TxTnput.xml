@@ -1,0 +1,92 @@
+<TXLife xm="http://vantage">
+	<TXLifeRequest>
+		<TransRefGUID>47b26d58-983c-5d14-f425-422d07e4b449</TransRefGUID>
+		<TransType tc="203">Holding Inquiry</TransType>		
+		<TransExeDate>2018-09-06</TransExeDate>
+		<TransExeTime>05:40:07-07:00</TransExeTime>
+		<TransMode tc="2">Original request. Sent by sender.</TransMode>
+		<OLifE Version="2.8.90">
+			<SourceInfo>
+				<CreationDate>2018-09-06</CreationDate>
+				<FileControlID>VNTG</FileControlID>
+			</SourceInfo>
+			<Holding id="Holding_1">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<RestrictionCode tc="1">No Restriction</RestrictionCode>
+				<Policy id="Policy_1">
+					<CarrierAdminSystem>VNTG</CarrierAdminSystem>
+					<PolNumber>21830115BI</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="5">Indexed UL</ProductType>
+					<ProductCode>IUL001</ProductCode>
+					<ProductVersionCode>A</ProductVersionCode>
+					<CarrierCode>BHF</CarrierCode>
+					<FormNo>ICC18-NB-133</FormNo>
+					<FiledFormNumber>ICC18-NB-133</FiledFormNumber>
+					<Jurisdiction tc="1">AL-Alabama</Jurisdiction>
+					<ReplacementType tc="1">This is not a Replacement Application</ReplacementType>					
+					<PaymentAmt>50000</PaymentAmt>					
+					<Life>
+						<QualPlanType tc="1">Non Qualified</QualPlanType>
+						<InitialPremAmt>50000</InitialPremAmt>
+						<FaceAmt>800000</FaceAmt>
+						<FaceUnits>800</FaceUnits>
+						<Coverage id="Coverage_1">
+							<CoverageKey>1</CoverageKey>
+							<ProductCode>IUL001</ProductCode>
+							<ProductVersionCode>A</ProductVersionCode>							
+							<CovOption id="CovOption_EOBR_1">
+								<CovOptionKey>1</CovOptionKey>
+								<PlanName>Extension Of Benefits for Long-Term Care Rider</PlanName>
+								<ProductCode>EOB001</ProductCode>
+								<CovOptionStatus tc="1">Active (Inforce)</CovOptionStatus>
+								<LifeCovOptTypeCode tc="31">Extension Of Benefits for Long-Term Care Rider</LifeCovOptTypeCode>
+								<TobaccoPremiumBasis tc="1">Non Smoker</TobaccoPremiumBasis>
+								<EffDate>2017-08-15</EffDate>
+								<TermDate>2077-08-15</TermDate>
+								<OLifEExtension ExtensionCode="CovOption 2.8.90" VendorCode="05">
+									<CovOptionExtension>
+										<PayUpDate>2017-08-15</PayUpDate>
+										<Duration>24</Duration>
+									</CovOptionExtension>
+								</OLifEExtension>
+							</CovOption>
+							<CovOption id="CovOption_LTCR_1">
+								<CovOptionKey>1</CovOptionKey>
+								<PlanName>Long-Term Care Acceleration of Death Benefit Rider</PlanName>
+								<ProductCode>LTC001</ProductCode>
+								<CovOptionStatus tc="1">Active (Inforce)</CovOptionStatus>
+								<LifeCovOptTypeCode tc="30">Long-Term Care Acceleration of Death Benefit Rider</LifeCovOptTypeCode>
+								<TobaccoPremiumBasis tc="1">Non Smoker</TobaccoPremiumBasis>
+								<EffDate>2017-08-15</EffDate>
+								<TermDate>2077-08-15</TermDate>
+								<OLifEExtension ExtensionCode="CovOption 2.8.90" VendorCode="05">
+									<CovOptionExtension>
+										<PayUpDate>2017-08-15</PayUpDate>
+										<Duration>24</Duration>
+									</CovOptionExtension>
+								</OLifEExtension>
+							</CovOption>
+							<CovOption LifeParticipantRefID="LifeParticipant_1" id="CovOption_37">
+								<CovOptionKey>1</CovOptionKey>
+								<ProductCode>TIR001</ProductCode>
+								<CovOptionStatus tc="95">Rider Approved</CovOptionStatus>
+								<LifeCovOptTypeCode tc="101">Terminal Illness Accelerated Benefits Rider</LifeCovOptTypeCode>
+								<OptionAmt>800000</OptionAmt>
+								<EffDate>2017-08-15</EffDate>
+								<OLifEExtension ExtensionCode="CovOption 2.8.90" VendorCode="05">
+									<CovOptionExtension>
+										<SelectionRule tc="12">Inherent, No Premium</SelectionRule>
+									</CovOptionExtension>
+								</OLifEExtension>
+							</CovOption>							
+						</Coverage>						
+					</Life>			
+					<ApplicationInfo>
+						<ApplicationJurisdiction tc="31">AL-Alabama</ApplicationJurisdiction>
+					</ApplicationInfo>		
+				</Policy>				
+			</Holding>			
+		</OLifE>
+	</TXLifeRequest>
+</TXLife>
